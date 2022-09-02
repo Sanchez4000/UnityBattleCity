@@ -1,0 +1,6 @@
+cells_world_game/Library/
+cells_world_game/Logs/
+cells_world_game/Packages/
+cells_world_game/UserSettings/
+cells_world_game/Temp/
+*.log
