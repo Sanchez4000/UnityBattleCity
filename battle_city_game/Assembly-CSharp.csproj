@@ -37,9 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Code\Game\Enums\Direction.cs" />
-     <Compile Include="Assets\Code\Game\Interfaces\IMovement.cs" />
-     <Compile Include="Assets\Code\Game\Tank\Tank.cs" />
      <Compile Include="Assets\Code\Game\Tank\MovementController.cs" />
+     <Compile Include="Assets\Code\Game\Tank\Tank.cs" />
+     <Compile Include="Assets\Code\Game\Interfaces\IMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>Z:\UnityEditor(2020.3.30f1 LTS)\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -625,6 +625,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>Z:\UnityProjects\UnityBattleCity\battle_city_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>Z:\UnityProjects\UnityBattleCity\battle_city_game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>Z:\UnityProjects\UnityBattleCity\battle_city_game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -636,9 +639,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>Z:\UnityProjects\UnityBattleCity\battle_city_game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>Z:\UnityProjects\UnityBattleCity\battle_city_game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
